@@ -1,0 +1,13 @@
+video_root: '/cfs/cfs-rmuhzak3/lukenxu/dataset/msrvtt/videos'
+ann_root: 'annotation/msrvtt'
+
+# set pretrained as a file path or an url
+pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/blip_weight/model_base_retrieval_coco.pth'
+# pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/BLIP-main/output/retrieval_trecvid/checkpoint_best.pth'
+
+# size of vit model; base or large
+vit: 'base'
+batch_size: 32
+k_test: 128
+image_size: 384
+num_frm_test: 12

@@ -1,0 +1,14 @@
+video_root: ''
+# video_root: '/cfs/cfs-rmuhzak3/jarvicliu/v3c1/v3c1_compressed_videos'
+ann_root: 'annotation/trecvid'
+
+# set pretrained as a file path or an url
+pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/blip_weight/model_base_retrieval_coco.pth'
+# pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/BLIP-main/output/retrieval_trecvid/checkpoint_best.pth'
+
+# size of vit model; base or large
+vit: 'base'
+batch_size: 300
+k_test: 128
+image_size: 224
+num_frm_test: 12
