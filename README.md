@@ -37,7 +37,7 @@ Video-QA
 ### Citation
 If you find this code to be useful for your research, please consider citing.
 <pre>
-@inproceedings{liu2022ts2net,
+@inproceedings{liu2022tokenmix,
       title={Token Mixing: Parameter-Efficient Transfer Learning from Image-Language to Video-Language}, 
       author={Yuqi Liu and Luhui Xu and Pengfei Xiong and Qin Jin},
       year={2023},

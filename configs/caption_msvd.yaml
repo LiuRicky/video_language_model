@@ -1,4 +1,4 @@
-video_root: '/cfs/cfs-rmuhzak3/lukenxu/dataset/msvd/frames_fps5_224'
+video_root: '[path_to_frames]'
 ann_root: 'annotation/msvd'
 coco_gt_root: 'annotation/msvd'
 
@@ -6,15 +6,14 @@ coco_gt_root: 'annotation/msvd'
 # pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_caption_capfilt_large.pth'
 
 # size of vit model; base or large
-# pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/BLIP-main/output/caption_msvd_bsz256/checkpoint_best.pth'
-pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/blip_weight/model_base_caption_capfilt_large.pth'
+pretrained: ''
 vit: 'base'
 vit_grad_ckpt: False
 vit_ckpt_layer: 0
 batch_size: 16
 init_lr: 1e-5
 
-# pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/blip_weight/model_large_caption.pth'
+# pretrained: ''
 # vit: 'large'
 # vit_grad_ckpt: False
 # vit_ckpt_layer: 0

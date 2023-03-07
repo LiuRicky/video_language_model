@@ -1,10 +1,9 @@
-video_root: '/cfs/cfs-rmuhzak3/lukenxu/dataset/msrvtt/frames_fps5_224'
+video_root: '[path_to_frames]'
 train_files: ['train']
 ann_root: 'annotation/msrvtt_qa'
 
 # set pretrained as a file path or an url
-# pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_vqa_capfilt_large.pth'
-pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/blip_weight/model_base_vqa_capfilt_large.pth'
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_vqa_capfilt_large.pth'
 
 # size of vit model; base or large
 vit: 'base'

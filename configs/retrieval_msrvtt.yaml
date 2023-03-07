@@ -1,12 +1,10 @@
-image_root: '/cfs/cfs-rmuhzak3/lukenxu/dataset/msrvtt/frames_fps5_224'
+image_root: '[path_to_frames]'
 ann_root: 'annotation/msrvtt_retrieval'
 
 # set pretrained as a file path or an url
 
 # size of vit model; base or large
-# pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_retrieval_coco.pth'
-pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/blip_weight/model_base_retrieval_coco.pth'
-# pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/blip_adapter/output/retrieval_msrvtt_partial/checkpoint_best.pth'
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_retrieval_coco.pth'
 vit: 'base'
 batch_size_train: 8
 batch_size_test: 16
@@ -14,7 +12,7 @@ vit_grad_ckpt: False
 vit_ckpt_layer: 0
 init_lr: 1e-5
 
-# pretrained: '/cfs/cfs-rmuhzak3/jarvicliu/blip_weight/model_large_retrieval_coco.pth'
+# pretrained: ''
 # vit: 'large'
 # batch_size_train: 8
 # batch_size_test: 16
